@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "End to end CI/CD pipeline deployment on Jenkins. This pipeline is capable of deployement in test environment(tomcat server). After successful testing we can manually triggred deployemnt job for prod environment.";
+        return "Hello World Springboot .war sample application.";
     }
 
 }
